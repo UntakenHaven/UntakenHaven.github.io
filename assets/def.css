@@ -1,6 +1,10 @@
+/*html elements*/
 html {
 }
 body{
 	background-color:#ddd;
 	color:#000;
+}
+/* classes */
+div.bellyband {
 }
