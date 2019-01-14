@@ -2,7 +2,7 @@
  
 This file will act as a todo list for the untaken haven website.
 
-<a href= "index.htm">Home Page</a>
+<a href= "https://untakenhaven.github.io/index.htm">Home Page</a>
 * General Initial Structure
 * Updates  Region
 * Upcoming Priojects
