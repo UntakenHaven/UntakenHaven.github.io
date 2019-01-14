@@ -2,6 +2,11 @@
  
 This file will act as a todo list for the untaken haven website.
 
+All Pages
+* 1920x300 UntakenHaven Header Image Made and Applied
+* Backround
+* Dark Mode
+
 <a href= "https://untakenhaven.github.io/index.htm">Home Page</a>
 * General Initial Structure
 * Updates  Region
