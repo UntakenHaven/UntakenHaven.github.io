@@ -35,6 +35,7 @@ div.bellyband {
 	height: calc(1.1vw + 1.1vh + .6vmin);
 }
 
+/*a.belly {*/
 #belly {
 	text-decoration: none;
     border-style:solid;
