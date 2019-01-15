@@ -35,7 +35,8 @@ div.bellyband {
 	height: calc(1.1vw + 1.1vh + .6vmin);
 }
 
-#belly {
+/*a.belly {*/
+a.belly {
 	text-decoration: none;
     border-style:solid;
     border-color:#7f8186;
@@ -44,4 +45,7 @@ div.bellyband {
     font-family:sans-serif;
 	font-size: calc(1vw + .9vh + .25vmin);
 	padding: calc(.19vw + .000001vh + .000055vmin);
+}
+div.twitchplayer {
+	text-align:center;width:100%;
 }
