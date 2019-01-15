@@ -11,7 +11,7 @@ body{
 
 /* banner head */
 p.bannerhead {
-	background-image:url("https://untakenhaven.github.io/assets/banner.png");
+	background-image: url(banner.png);
 	font-family:"Fjalla One", sans-serif;
 	color:#fff;
 	font-size:200pt;
