@@ -43,5 +43,5 @@ div.bellyband {
     color:#fff;
     font-family:sans-serif;
 	font-size: calc(1vw + .9vh + .25vmin);
-	padding: calc(.2vw + .000001vh + .000055vmin);
+	padding: calc(.19vw + .000001vh + .000055vmin);
 }
