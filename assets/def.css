@@ -45,3 +45,6 @@ div.bellyband {
 	font-size: calc(1vw + .9vh + .25vmin);
 	padding: calc(.19vw + .000001vh + .000055vmin);
 }
+div.twitchplayer {
+	text-align:center;width:100%;
+}
