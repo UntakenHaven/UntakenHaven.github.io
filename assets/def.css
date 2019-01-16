@@ -10,20 +10,20 @@ body{
 /* classes */
 
 /* banner */
-div.banner {
+div.bannerMain {
 	display: flex;
     justify-content: center;	/* align horizontal */
     align-items: center;		/* align vertical */
 	width: 100%;
 	height: calc(5vw + 5vh + 2.5vmin);
-	background-image: url(banner.png);
+	background-image: url(banners/banner.png);
 	font-family:"Fjalla One", sans-serif;
 	color:#fff;
 	font-size: calc(5vw + 4vh + 1vmin);
 }
 
 /* belly band */
-div.bellyband {
+div.bellyBand {
 	display: flex;
     justify-content: center;	/* align horizontal */
     align-items: center;		/* align vertical */
@@ -46,6 +46,8 @@ a.belly {
 	font-size: calc(1vw + .9vh + .25vmin);
 	padding: calc(.19vw + .000001vh + .000055vmin);
 }
-div.twitchplayer {
+
+/* Active stream*/ 
+div.twitchPlayer {
 	text-align:center;width:100%;
 }
