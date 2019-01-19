@@ -1,29 +1,61 @@
-/* imports */
+/*---
+title:	def
+import:	https://fonts.googleapis.com/css?family=Fjalla+One%27 
+---*/
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One%27');
-/*html elements*/
-html {
-}
+
+/*---
+title:		body
+section:	Base 
+
+Use this class to set the entire backround of pages.
+Typically you'll want to use either a `<body>`
+
+```example:html
+<body"></body>
+```
+---*/
 body{
 	background-color:#36393f;
 	color:#000;
 }
-/* classes */
 
-/* banner */
+/*---
+title:		banner
+section:	Base 
+
+Use this class to set the banner and banner region of pages.
+Typically you'll want to use either a `<div>` and <p>
+
+```example:html
+<div class="bannerMain"></div>
+<p class="bannerMain">TEXT</p>	
+```
+---*/
 div.banner {
 	display: flex;
     justify-content: center;	/* align horizontal */
     align-items: center;		/* align vertical */
 	width: 100%;
 	height: calc(5vw + 5vh + 2.5vmin);
-	background-image: url(banner.png);
+	background-image: url(banners/banner.png);
 	font-family:"Fjalla One", sans-serif;
 	color:#fff;
 	font-size: calc(5vw + 4vh + 1vmin);
 }
 
-/* belly band */
-div.bellyband {
+/*---
+title:		bellyBandBackround
+section:	Base 
+
+Use this class to set the belly band backround and belly band region of pages.
+Typically you'll want to use either a `<div>`
+
+```example:html
+<div class="bellyBand"></div>
+```
+---*/
+div.bellyBandBackround {
 	display: flex;
     justify-content: center;	/* align horizontal */
     align-items: center;		/* align vertical */
@@ -35,8 +67,18 @@ div.bellyband {
 	height: calc(1.1vw + 1.1vh + .6vmin);
 }
 
-/*a.belly {*/
-a.belly {
+/*---
+title:		bellyBandButton
+section:	Base 
+
+Use this class to set the belly band text and button of pages.
+Typically you'll want to use either a `<a>`
+
+```example:html
+<a class="bellyButton" href="ref">TEXT</a>
+```
+---*/
+a.bellyBandButton {
 	text-decoration: none;
     border-style:solid;
     border-color:#7f8186;
@@ -46,6 +88,18 @@ a.belly {
 	font-size: calc(1vw + .9vh + .25vmin);
 	padding: calc(.19vw + .000001vh + .000055vmin);
 }
-div.twitchplayer {
+
+/*---
+title:		twitchPlayer
+section:	Twitch 
+
+Use this class to center twitch embeds.
+Typically you'll want to use either a `<div>`
+
+```example:html
+<div class="twitchPlayer"></div>
+```
+---*/ 
+div.twitchPlayer {
 	text-align:center;width:100%;
 }
