@@ -101,7 +101,9 @@ Typically you'll want to use either a `<div>`
 ```
 ---*/ 
 div.twitchPlayer {
-	text-align:center;width:100%;
+	text-align:center;
+	width:100%;
+	height:100%;
 }
 
 
