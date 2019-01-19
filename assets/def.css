@@ -21,7 +21,7 @@ body{
 }
 
 /*---
-title:		banner
+title:		bannerMain
 section:	Base 
 
 Use this class to set the banner and banner region of pages.
@@ -32,7 +32,7 @@ Typically you'll want to use either a `<div>` and <p>
 <p class="bannerMain">TEXT</p>	
 ```
 ---*/
-div.banner {
+div.bannerMain {
 	display: flex;
     justify-content: center;	/* align horizontal */
     align-items: center;		/* align vertical */
