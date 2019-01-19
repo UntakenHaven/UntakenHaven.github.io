@@ -1,64 +1,64 @@
 /*---
-title:	def
-import:	https://fonts.googleapis.com/css?family=Fjalla+One%27 
+* title:	def
+* import:	https://fonts.googleapis.com/css?family=Fjalla+One%27 
 ---*/
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One%27');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One%27'); /* "Fjalla One" */
 
 /*---
-title:		body
-section:	Base 
-
-Use this class to set the entire backround of pages.
-Typically you'll want to use either a `<body>`
-
-```example:html
-<body"></body>
-```
+* title:	body
+* section:	Base 
+*
+* Use this class to set the entire backround of pages.
+* Typically you'll want to use either a `<body>`
+*
+* ```example:html
+* <body"></body>
+* ```
 ---*/
-body{
+body {
 	background-color:#36393f;
 	color:#000;
 }
 
 /*---
-title:		bannerMain
-section:	Base 
-
-Use this class to set the banner and banner region of pages.
-Typically you'll want to use either a `<div>` and <p>
-
-```example:html
-<div class="bannerMain"></div>
-<p class="bannerMain">TEXT</p>	
-```
+* title:	bannerMain
+* section:	Base 
+* 
+* Use this class to set the banner and banner region of pages.
+* Typically you'll want to use either a `<div>` and <p>
+*
+* ```example:html
+* <div class="bannerMain"></div>
+* <p class="bannerMain">TEXT</p>	
+* ```
 ---*/
 div.bannerMain {
 	display: flex;
-    justify-content: center;	/* align horizontal */
-    align-items: center;		/* align vertical */
+	justify-content: center;	/* align horizontal */
+	align-items: center;		/* align vertical */
 	width: 100%;
 	height: calc(5vw + 5vh + 2.5vmin);
 	background-image: url(banners/bannerMain.png);
-	font-family:"Fjalla One", sans-serif;
+	font-family:'Fjalla One', sans-serif;
 	color:#fff;
 	font-size: calc(5vw + 4vh + 1vmin);
 }
 
 /*---
-title:		bellyBandBackround
-section:	Base 
-
-Use this class to set the belly band backround and belly band region of pages.
-Typically you'll want to use either a `<div>`
-
-```example:html
-<div class="bellyBand"></div>
-```
+* title:	bellyBandBackround
+* section:	Base 
+*
+* Use this class to set the belly band backround and belly band region of pages.
+* Typically you'll want to use either a `<div>`
+* 
+* ```example:html
+* <div class="bellyBand"></div>
+* ```
 ---*/
 div.bellyBandBackround {
 	display: flex;
-    justify-content: center;	/* align horizontal */
-    align-items: center;		/* align vertical */
+	justify-content:center;	/* align horizontal */
+	align-items:center;	/* align vertical */
 	border-style:solid;
 	border-color: #2b2c31;
 	background-color: #2b2c31;
@@ -68,45 +68,130 @@ div.bellyBandBackround {
 }
 
 /*---
-title:		bellyBandButton
-section:	Base 
-
-Use this class to set the belly band text and button of pages.
-Typically you'll want to use either a `<a>`
-
-```example:html
-<a class="bellyButton" href="ref">TEXT</a>
-```
+* title:	bellyBandButton
+* section:	Base 
+* 
+* Use this class to set the belly band text and button of pages.
+* Typically you'll want to use either a `<a>`
+*
+* ```example:html
+* <a class="bellyButton" href="ref">TEXT</a>
+* ```
 ---*/
 a.bellyBandButton {
 	text-decoration: none;
-    border-style:solid;
-    border-color:#7f8186;
-    border-width:calc(.01vw + .1vh + .006vmin);
-    color:#fff;
-    font-family:sans-serif;
+	border-style:solid;
+	border-color:#484c52;
+	background-color:#484c52;
+	border-width:0px;
+	color:#fff;
+   	font-family:sans-serif;
 	font-size: calc(1vw + .9vh + .25vmin);
-	padding: calc(.19vw + .000001vh + .000055vmin);
+	padding: calc(.19vw + .000001vh + .000055vmin) calc(.55vw + .000001vh + .000055vmin);
+}
+
+a.bellyBandButton:hover {
+	color:#2b2c31;
+        background-color:#7f8186;
+}
+
+div.dropdown {
+	color:inherit;
+	background-color:rgba(0, 0, 0, 0);
+	font-family:inherit;
+}
+
+button.dropbtn {
+        background-color:rgba(0, 0, 0, 0);
+	text-decoration: none;
+        border-style:solid;
+        border-color:#484c52;
+        background-color:#484c52;
+        border-width:0px;
+        color:#fff;
+        font-family:sans-serif;
+        font-size: calc(1vw + .9vh + .25vmin);
+        padding:calc(.19vw + .000001vh + .000055vmin) calc(.55vw + .000001vh + .000055vmin);
+}
+
+button.dropbtn:hover{
+        color:#2b2c31;
+        background-color:#7f8186;
 }
 
 /*---
-title:		twitchPlayer
-section:	Twitch 
+ * title:	dropdown content
+ * section	within team bellyband button
+ *
+ * use these classes to edit dropdown content in any dropdown button div
+---*/
+.dropbtn {
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
 
-Use this class to center twitch embeds.
-Typically you'll want to use either a `<div>`
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
 
-```example:html
-<div class="twitchPlayer"></div>
-```
----*/ 
+.dropdown-content {
+	color:#fff;
+	background-color:#484c52;
+	display: none;
+	position: absolute;
+	background-color:rgba(255, 255, 255, 0);
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+	z-index: 1;
+}
+
+.dropdown-content a {
+  	font-family:sans-serif;
+	color:#fff;
+	background-color:#484c52;
+  	padding: 12px 16px;
+  	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	color:#2b2c31;
+	background-color:#7f8186;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background.color:#7f8186;
+}
+
+/*--- 
+---*/
+.eventcard {
+
+}
+
+/*---
+* title:	twitchPlayer
+* section:	Twitch 
+
+* Use this class to center twitch embeds.
+* Typically you'll want to use either a `<div>`
+*
+* ```example:html
+* <div class="twitchPlayer"></div>
+*```
+* ---*/ 
 div.twitchPlayer {
 	text-align:center;
 	width:100%;
 	height:100%;
 }
-
-
 
 /*---
 title:		bannerABagOfPowder
@@ -122,8 +207,8 @@ Typically you'll want to use either a `<div>` and <p>
 ---*/
 div.bannerABagOfPowder {
 	display: flex;
-    justify-content: center;	/* align horizontal */
-    align-items: center;		/* align vertical */
+	justify-content: center;	/* align horizontal */
+ 	align-items: center;		/* align vertical */
 	width: 100%;
 	height: calc(5vw + 5vh + 2.5vmin);
 	background-image: url(banners/bannerMain.png);
@@ -146,8 +231,8 @@ Typically you'll want to use either a `<div>` and <p>
 ---*/
 div.bannerDoxRyan {
 	display: flex;
-    justify-content: center;	/* align horizontal */
-    align-items: center;		/* align vertical */
+	justify-content: center;	/* align horizontal */
+	align-items: center;		/* align vertical */
 	width: 100%;
 	height: calc(5vw + 5vh + 2.5vmin);
 	background-image: url(banners/bannerMain.png);
@@ -170,8 +255,8 @@ Typically you'll want to use either a `<div>` and <p>
 ---*/
 div.bannerFrosty {
 	display: flex;
-    justify-content: center;	/* align horizontal */
-    align-items: center;		/* align vertical */
+	justify-content: center;	/* align horizontal */
+	align-items: center;		/* align vertical */
 	width: 100%;
 	height: calc(5vw + 5vh + 2.5vmin);
 	background-image: url(banners/bannerMain.png);
@@ -194,8 +279,8 @@ Typically you'll want to use either a `<div>` and <p>
 ---*/
 div.bannerParkCity {
 	display: flex;
-    justify-content: center;	/* align horizontal */
-    align-items: center;		/* align vertical */
+   	justify-content: center;	/* align horizontal */
+	align-items: center;		/* align vertical */
 	width: 100%;
 	height: calc(5vw + 5vh + 2.5vmin);
 	background-image: url(banners/bannerMain.png);
@@ -218,8 +303,8 @@ Typically you'll want to use either a `<div>` and <p>
 ---*/
 div.bannerRagingFeral {
 	display: flex;
-    justify-content: center;	/* align horizontal */
-    align-items: center;		/* align vertical */
+   	justify-content: center;	/* align horizontal */
+	align-items: center;		/* align vertical */
 	width: 100%;
 	height: calc(5vw + 5vh + 2.5vmin);
 	background-image: url(banners/bannerMain.png);
@@ -242,8 +327,8 @@ Typically you'll want to use either a `<div>` and <p>
 ---*/
 div.bannerRevXII {
 	display: flex;
-    justify-content: center;	/* align horizontal */
-    align-items: center;		/* align vertical */
+	justify-content: center;	/* align horizontal */
+	align-items: center;		/* align vertical */
 	width: 100%;
 	height: calc(5vw + 5vh + 2.5vmin);
 	background-image: url(banners/bannerRevXII.png);
@@ -266,8 +351,8 @@ Typically you'll want to use either a `<div>` and <p>
 ---*/
 div.bannerStudiedFern {
 	display: flex;
-    justify-content: center;	/* align horizontal */
-    align-items: center;		/* align vertical */
+	justify-content: center;	/* align horizontal */
+	align-items: center;		/* align vertical */
 	width: 100%;
 	height: calc(5vw + 5vh + 2.5vmin);
 	background-image: url(banners/bannerMain.png);
@@ -277,21 +362,21 @@ div.bannerStudiedFern {
 }
 
 /*---
-title:		bannerTim
-section:	Personal Banners 
-
-Use this class to set the banner and banner region of pages.
-Typically you'll want to use either a `<div>` and <p>
-
-```example:html
-<div class="bannerTim"></div>
-<p class="bannerTim">TEXT</p>	
-```
+* title:	bannerTim
+* section:	Personal Banners 
+* 
+* Use this class to set the banner and banner region of pages.
+* Typically you'll want to use either a `<div>` and <p>
+* 
+* ```example:html
+* <div class="bannerTim"></div>
+* <p class="bannerTim">TEXT</p>	
+* ```
 ---*/
 div.bannerTim {
 	display: flex;
-    justify-content: center;	/* align horizontal */
-    align-items: center;		/* align vertical */
+   	justify-content: center;	/* align horizontal */
+	align-items: center;		/* align vertical */
 	width: 100%;
 	height: calc(5vw + 5vh + 2.5vmin);
 	background-image: url(banners/bannerMain.png);
