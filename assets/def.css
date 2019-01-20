@@ -1,19 +1,19 @@
 /*---
-* title:	def
-* import:	https://fonts.googleapis.com/css?family=Fjalla+One%27 
+ * title:	def
+ * import:	https://fonts.googleapis.com/css?family=Fjalla+One%27 
 ---*/
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One%27'); /* "Fjalla One" */
 
 /*---
-* title:	body
-* section:	Base 
-*
-* Use this class to set the entire backround of pages.
-* Typically you'll want to use either a `<body>`
-*
-* ```example:html
-* <body"></body>
-* ```
+ * title:	body
+ * section:	Base 
+ *
+ * Use this class to set the entire backround of pages.
+ * Typically you'll want to use either a `<body>`
+ *
+ * ```example:html
+ * <body"></body>
+ * ```
 ---*/
 body {
 	background-color:#36393f;
@@ -21,16 +21,16 @@ body {
 }
 
 /*---
-* title:	bannerMain
-* section:	Base 
-* 
-* Use this class to set the banner and banner region of pages.
-* Typically you'll want to use either a `<div>` and <p>
-*
-* ```example:html
-* <div class="bannerMain"></div>
-* <p class="bannerMain">TEXT</p>	
-* ```
+ * title:	bannerMain
+ * section:	Base/Banner
+ * 
+ * Use this class to set the banner and banner region of pages.
+ * Typically you'll want to use either a `<div>` and <p>
+ *
+ * ```example:html
+ * <div class="bannerMain"></div>
+ * <p class="bannerMain">TEXT</p>	
+ * ```
 ---*/
 div.bannerMain {
 	display: flex;
@@ -45,15 +45,15 @@ div.bannerMain {
 }
 
 /*---
-* title:	bellyBandBackround
-* section:	Base 
-*
-* Use this class to set the belly band backround and belly band region of pages.
-* Typically you'll want to use either a `<div>`
-* 
-* ```example:html
-* <div class="bellyBand"></div>
-* ```
+ * title:	bellyBandBackround
+ * section:	Base/BellyBand
+ *
+ * Use this class to set the belly band backround and belly band region of pages.
+ * Typically you'll want to use either a `<div>`
+ * 
+ * ```example:html
+ * <div class="bellyBand"></div>
+ * ```
 ---*/
 div.bellyBandBackround {
 	display: flex;
@@ -68,15 +68,15 @@ div.bellyBandBackround {
 }
 
 /*---
-* title:	bellyBandButton
-* section:	Base 
-* 
-* Use this class to set the belly band text and button of pages.
-* Typically you'll want to use either a `<a>`
-*
-* ```example:html
-* <a class="bellyButton" href="ref">TEXT</a>
-* ```
+ * title:	bellyBandButton
+ * section:	Base/BellyBand
+ * 
+ * Use this class to set the belly band text and button of pages.
+ * Typically you'll want to use either a `<a>`
+ *
+ * ```example:html
+ * <a class="bellyButton" href="ref">TEXT</a>
+ * ```
 ---*/
 a.bellyBandButton {
 	text-decoration: none;
@@ -90,20 +90,87 @@ a.bellyBandButton {
 	padding: calc(.19vw + .000001vh + .000055vmin) calc(.55vw + .000001vh + .000055vmin);
 }
 
+/*---
+ * title:	bellyBandButton
+ * section:	Base/BellyBand
+ * 
+ * Use this class to set the belly band button of pages.
+ * Typically you'll want to use either a `<a>`
+ *
+ * ```example:html
+ * <a class="bellyButton" href="ref">TEXT</a>
+ * ```
+---*/
 a.bellyBandButton:hover {
 	color:#2b2c31;
-        background-color:#7f8186;
+    background-color:#7f8186;
 }
 
-div.dropdown {
+/*---
+ * title:	dropDown
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set a drop down of a belly band buton.
+ * Typically you'll want to use either a `<div>`
+ *
+ * ```example:html
+ * <div class="dropDown" href="ref"></div>
+ * ```
+---*/
+.dropDown {
+	position: relative;
+	display: inline-block;
+}
+
+/*---
+ * title:	dropDown
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set a drop down of a belly band buton.
+ * Typically you'll want to use either a `<div>`
+ *
+ * ```example:html
+ * <div class="dropDown" href="ref"></div>
+ * ```
+---*/
+div.dropDown {
 	color:inherit;
 	background-color:rgba(0, 0, 0, 0);
 	font-family:inherit;
 }
 
-button.dropbtn {
+/*---
+ * title:	dropDownButton
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set the belly band text and button of pages.
+ * Typically you'll want to use either a `<button>`
+ *
+ * ```example:html
+ * <button class="dropDownButton" href="ref">TEXT</button>
+ * ```
+---*/
+.dropDownButton {
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+/*---
+ * title:	dropDownButton
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set a drop down button of a belly band buton.
+ * Typically you'll want to use either a `<button>`
+ *
+ * ```example:html
+ * <button class="dropdownButton" href="ref">TEXT</button>
+ * ```
+---*/
+button.dropDownButton {
         background-color:rgba(0, 0, 0, 0);
-	text-decoration: none;
+		text-decoration: none;
         border-style:solid;
         border-color:#484c52;
         background-color:#484c52;
@@ -114,30 +181,34 @@ button.dropbtn {
         padding:calc(.19vw + .000001vh + .000055vmin) calc(.55vw + .000001vh + .000055vmin);
 }
 
-button.dropbtn:hover{
+/*---
+ * title:	dropDownButton
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set a drop down button of a belly band buton.
+ * Typically you'll want to use either a `<button>`
+ *
+ * ```example:html
+ * <button class="dropDownButton" href="ref">TEXT</button>
+ * ```
+---*/
+button.dropDownButton:hover{
         color:#2b2c31;
         background-color:#7f8186;
 }
 
 /*---
- * title:	dropdown content
- * section	within team bellyband button
+ * title:	dropDown-content
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set a drop down contnet of a belly band buton.
+ * Typically you'll want to use either a `<div>`
  *
- * use these classes to edit dropdown content in any dropdown button div
+ * ```example:html
+ * <div class="dropDown-content" href="ref"></div>
+ * ```
 ---*/
-.dropbtn {
-	color: white;
-	padding: 16px;
-	font-size: 16px;
-	border: none;
-}
-
-.dropdown {
-	position: relative;
-	display: inline-block;
-}
-
-.dropdown-content {
+.dropDown-content {
 	color:#fff;
 	background-color:#484c52;
 	display: none;
@@ -148,7 +219,18 @@ button.dropbtn:hover{
 	z-index: 1;
 }
 
-.dropdown-content a {
+/*---
+ * title:	dropDown-content
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set a drop down contnet of a belly band buton.
+ * Typically you'll want to use either a `<div>`
+ *
+ * ```example:html
+ * <div class="bellyButton" href="ref"></div>
+ * ```
+---*/
+.dropDown-content a {
   	font-family:sans-serif;
 	color:#fff;
 	background-color:#484c52;
@@ -157,36 +239,70 @@ button.dropbtn:hover{
 	display: block;
 }
 
-.dropdown-content a:hover {
-	color:#2b2c31;
-	background-color:#7f8186;
-}
-
-.dropdown:hover .dropdown-content {
-	display: block;
-}
-
-.dropdown:hover .dropbtn {
+/*---
+ * title:	dropDown,.dropDownButton
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set teh buton of the drop down content.
+ * Typically you'll want to use either a `<div>`
+ *
+ * ```example:html
+ * <div class="dropDownButton" href="ref"></div>
+ * ```
+---*/
+.dropDown:hover .dropDownButton {
 	background.color:#7f8186;
 }
 
+/*---
+ * title:	dropDown-content,.dropDown-content
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set teh buton of the drop down content.
+ * Typically you'll want to use either a `<div>`
+ *
+ * ```example:html
+ * <div class="dropDown" href="ref"></div>
+ * ```
+---*/
+.dropDown:hover .dropDown-content {
+	display: block;
+}
+
+/*---
+ * title:	dropDown-content
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set a drop down contnet of a belly band buton.
+ * Typically you'll want to use either a `<div>`
+ *
+ * ```example:html
+ * <div class=dropDown-content" href="ref"></div>
+ * ```
+---*/
+.dropDown-content a:hover {
+	color:#2b2c31;
+	background-color:#7f8186;
+}
 /*--- 
 ---*/
+
 .eventcard {
 
 }
 
 /*---
-* title:	twitchPlayer
-* section:	Twitch 
+ * title:	twitchPlayer
+ * section:	Twitch 
 
-* Use this class to center twitch embeds.
-* Typically you'll want to use either a `<div>`
-*
-* ```example:html
-* <div class="twitchPlayer"></div>
-*```
-* ---*/ 
+ * Use this class to center twitch embeds.
+ * Typically you'll want to use either a `<div>`
+ *
+ * ```example:html
+ * <div class="twitchPlayer"></div>
+ *```
+ * 
+---*/ 
 div.twitchPlayer {
 	text-align:center;
 	width:100%;
@@ -194,16 +310,16 @@ div.twitchPlayer {
 }
 
 /*---
-title:		bannerABagOfPowder
-section:	Personal Banners 
+ * title:	bannerABagOfPowder
+ * section:	Personal/Banners 
 
-Use this class to set the banner and banner region of pages.
-Typically you'll want to use either a `<div>` and <p>
+ * Use this class to set the banner and banner region of pages.
+ * Typically you'll want to use either a `<div>` and <p>
 
-```example:html
-<div class="bannerABagOfPowder"></div>
-<p class="bannerABagOfPowder">TEXT</p>	
-```
+ * ```example:html
+ * <div class="bannerABagOfPowder"></div>
+ * <p class="bannerABagOfPowder">TEXT</p>	
+ * ```
 ---*/
 div.bannerABagOfPowder {
 	display: flex;
@@ -218,16 +334,16 @@ div.bannerABagOfPowder {
 }
 
 /*---
-title:		bannerDoxRyan
-section:	Personal Banners 
+ * title:	bannerDoxRyan
+ * section:	Personal/Banners 
 
-Use this class to set the banner and banner region of pages.
-Typically you'll want to use either a `<div>` and <p>
+ * Use this class to set the banner and banner region of pages.
+ * Typically you'll want to use either a `<div>` and <p>
 
-```example:html
-<div class="bannerDoxRyan"></div>
-<p class="bannerMDoxRyan">TEXT</p>	
-```
+ * ```example:html
+ * <div class="bannerDoxRyan"></div>
+ * <p class="bannerDoxRyan">TEXT</p>	
+ * ```
 ---*/
 div.bannerDoxRyan {
 	display: flex;
@@ -242,15 +358,15 @@ div.bannerDoxRyan {
 }
 
 /*---
-title:		bannerFrosty
-section:	Personal Banners 
+ * title:	bannerFrosty
+ * section:	Personal/Banners 
 
-Use this class to set the banner and banner region of pages.
-Typically you'll want to use either a `<div>` and <p>
+ * Use this class to set the banner and banner region of pages.
+ * Typically you'll want to use either a `<div>` and <p>
 
-```example:html
-<div class="bannerFrosty"></div>
-<p class="bannerFrosty">TEXT</p>	
+ * ```example:html
+ * <div class="bannerFrosty"></div>
+ * <p class="bannerFrosty">TEXT</p>	
 ```
 ---*/
 div.bannerFrosty {
@@ -266,16 +382,16 @@ div.bannerFrosty {
 }
 
 /*---
-title:		bannerParkCity
-section:	Personal Banners 
+ * title:	bannerParkCity
+ * section:	Personal/Banners 
 
-Use this class to set the banner and banner region of pages.
-Typically you'll want to use either a `<div>` and <p>
+ * Use this class to set the banner and banner region of pages.
+ * Typically you'll want to use either a `<div>` and <p>
 
-```example:html
-<div class="bannerParkCity"></div>
-<p class="bannerParkCity">TEXT</p>	
-```
+ * ```example:html
+ * <div class="bannerParkCity"></div>
+ * <p class="bannerParkCity">TEXT</p>	
+ * ```
 ---*/
 div.bannerParkCity {
 	display: flex;
@@ -290,16 +406,16 @@ div.bannerParkCity {
 }
 
 /*---
-title:		bannerRagingFeral
-section:	Personal Banners 
+ * title:	bannerRagingFeral
+ * section:	Personal/Banners 
 
-Use this class to set the banner and banner region of pages.
-Typically you'll want to use either a `<div>` and <p>
+ * Use this class to set the banner and banner region of pages.
+ * Typically you'll want to use either a `<div>` and <p>
 
-```example:html
-<div class="bannerRagingFeral"></div>
-<p class="bannerRagingFeral">TEXT</p>	
-```
+ * ```example:html
+ * <div class="bannerRagingFeral"></div>
+ * <p class="bannerRagingFeral">TEXT</p>	
+ * ```
 ---*/
 div.bannerRagingFeral {
 	display: flex;
@@ -314,15 +430,15 @@ div.bannerRagingFeral {
 }
 
 /*---
-title:		bannerRevXII
-section:	Personal Banners 
+ * title:	bannerRevXII
+ * section:	Personal/Banners 
 
-Use this class to set the banner and banner region of pages.
-Typically you'll want to use either a `<div>` and <p>
+ * Use this class to set the banner and banner region of pages.
+ * Typically you'll want to use either a `<div>` and <p>
 
-```example:html
-<div class="bannerRevXII"></div>
-<p class="bannerRevXII">TEXT</p>	
+ * ```example:html
+ * <div class="bannerRevXII"></div>
+ * <p class="bannerRevXII">TEXT</p>	
 ```
 ---*/
 div.bannerRevXII {
@@ -338,16 +454,16 @@ div.bannerRevXII {
 }
 
 /*---
-title:		bannerStudiedFern
-section:	Personal Banners 
+ * title:	bannerStudiedFern
+ * section:	Personal/Banners 
 
-Use this class to set the banner and banner region of pages.
-Typically you'll want to use either a `<div>` and <p>
+ * Use this class to set the banner and banner region of pages.
+ * Typically you'll want to use either a `<div>` and <p>
 
-```example:html
-<div class="bannerStudiedFern"></div>
-<p class="bannerStudiedFern">TEXT</p>	
-```
+ * ```example:html
+ * <div class="bannerStudiedFern"></div>
+ * <p class="bannerStudiedFern">TEXT</p>	
+ * ```
 ---*/
 div.bannerStudiedFern {
 	display: flex;
@@ -362,16 +478,16 @@ div.bannerStudiedFern {
 }
 
 /*---
-* title:	bannerTim
-* section:	Personal Banners 
-* 
-* Use this class to set the banner and banner region of pages.
-* Typically you'll want to use either a `<div>` and <p>
-* 
-* ```example:html
-* <div class="bannerTim"></div>
-* <p class="bannerTim">TEXT</p>	
-* ```
+ * title:	bannerTim
+ * section:	Personal/Banners 
+ * 
+ * Use this class to set the banner and banner region of pages.
+ * Typically you'll want to use either a `<div>` and <p>
+ * 
+ * ```example:html
+ * <div class="bannerTim"></div>
+ * <p class="bannerTim">TEXT</p>	
+ * ```
 ---*/
 div.bannerTim {
 	display: flex;
