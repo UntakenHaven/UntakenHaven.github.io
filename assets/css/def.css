@@ -38,7 +38,7 @@ div.bannerMain {
 	align-items: center;		/* align vertical */
 	width: 100%;
 	height: calc(5vw + 5vh + 2.5vmin);
-	background-image: url(banners/bannerMain.png);
+	background-image: url(../banners/bannerMain.png);
 	font-family:'Fjalla One', sans-serif;
 	color:#fff;
 	font-size: calc(5vw + 4vh + 1vmin);
