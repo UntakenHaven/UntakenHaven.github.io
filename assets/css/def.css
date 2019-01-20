@@ -97,8 +97,8 @@ div.bellyBandBackround {
 a.bellyBandButton {
 	text-decoration: none;
 	border-style:solid;
-	border-color:#484c52;
-	background-color:#484c52;
+	border-color: #2b2c31;
+	background-color: #2b2c31;
 	border-width:0px;
 	color:#fff;
    	font-family:sans-serif;
@@ -118,8 +118,8 @@ a.bellyBandButton {
  * ```
 ---*/
 a.bellyBandButton:hover {
-	color:#2b2c31;
-    background-color:#7f8186;
+	color:#fff;
+    background-color:#484c52;
 }
 
 /*---
@@ -185,11 +185,10 @@ div.dropDown {
  * ```
 ---*/
 button.dropDownButton {
-        background-color:rgba(0, 0, 0, 0);
 		text-decoration: none;
         border-style:solid;
         border-color:#484c52;
-        background-color:#484c52;
+        background-color:#2b2c31;
         border-width:0px;
         color:#fff;
         font-family:sans-serif;
@@ -209,8 +208,8 @@ button.dropDownButton {
  * ```
 ---*/
 button.dropDownButton:hover{
-        color:#2b2c31;
-        background-color:#7f8186;
+    color:#fff;
+    background-color:#484c52;
 }
 
 /*---
@@ -268,7 +267,8 @@ button.dropDownButton:hover{
  * ```
 ---*/
 .dropDown:hover .dropDownButton {
-	background.color:#7f8186;
+	color:#fff;
+    background-color:#484c52;
 }
 
 /*---
