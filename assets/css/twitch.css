@@ -3,3 +3,21 @@
  * import:	https://fonts.googleapis.com/css?family=Fjalla+One%27 
 ---*/
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One%27'); /* "Fjalla One" */
+
+/*---
+ * title:	twitchPlayer
+ * section:	Twitch 
+
+ * Use this class to center twitch embeds.
+ * Typically you'll want to use either a `<div>`
+ *
+ * ```example:html
+ * <div class="twitchPlayer"></div>
+ *```
+ * 
+---*/ 
+div.twitchPlayer {
+	text-align:center;
+	width:100%;
+	height:100%;
+}
