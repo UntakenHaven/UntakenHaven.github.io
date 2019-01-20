@@ -1,0 +1,303 @@
+/*---
+ * title:	def
+ * import:	https://fonts.googleapis.com/css?family=Fjalla+One%27 
+---*/
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One%27'); /* "Fjalla One" */
+
+/*---
+ * title:	body
+ * section:	Base 
+ *
+ * Use this class to set the entire backround of pages.
+ * Typically you'll want to use either a `<body>`
+ *
+ * ```example:html
+ * <body"></body>
+ * ```
+---*/
+body {
+	background-color:#36393f;
+	color:#000;
+}
+
+/*---
+ * title:
+ * section:	Base 
+ *
+ * Genric text color
+ * Typically you'll want to use either a `<p>`
+ *
+ * ```example:html
+ * <p>TEXT</p>
+ * ```
+---*/
+p {
+    color:inherit;
+	font-family:inherit;
+}
+
+/*---
+ * title:	bannerMain
+ * section:	Base/Banner
+ * 
+ * Use this class to set the banner and banner region of pages.
+ * Typically you'll want to use either a `<div>` and <p>
+ *
+ * ```example:html
+ * <div class="bannerMain"></div>
+ * <p class="bannerMain">TEXT</p>	
+ * ```
+---*/
+div.bannerMain {
+	display: flex;
+	justify-content: center;	/* align horizontal */
+	align-items: center;		/* align vertical */
+	width: 100%;
+	height: calc(5vw + 5vh + 2.5vmin);
+	background-image: url(../banners/bannerMain.png);
+	font-family:'Fjalla One', sans-serif;
+	color:#fff;
+	font-size: calc(5vw + 4vh + 1vmin);
+}
+
+/*---
+ * title:	bellyBandBackround
+ * section:	Base/BellyBand
+ *
+ * Use this class to set the belly band backround and belly band region of pages.
+ * Typically you'll want to use either a `<div>`
+ * 
+ * ```example:html
+ * <div class="bellyBand"></div>
+ * ```
+---*/
+div.bellyBandBackround {
+	display: flex;
+	justify-content:center;	/* align horizontal */
+	align-items:center;	/* align vertical */
+	border-style:solid;
+	border-color: #2b2c31;
+	background-color: #2b2c31;
+	text-align:center;
+	width:100%;
+	height: calc(1.1vw + 1.1vh + .6vmin);
+}
+
+/*---
+ * title:	bellyBandButton
+ * section:	Base/BellyBand
+ * 
+ * Use this class to set the belly band text and button of pages.
+ * Typically you'll want to use either a `<a>`
+ *
+ * ```example:html
+ * <a class="bellyButton" href="ref">TEXT</a>
+ * ```
+---*/
+a.bellyBandButton {
+	text-decoration: none;
+	border-style:solid;
+	border-color: #2b2c31;
+	background-color: #2b2c31;
+	border-width:0px;
+	color:#fff;
+   	font-family:sans-serif;
+	font-size: calc(1vw + .9vh + .25vmin);
+	padding: calc(.19vw + .000001vh + .000055vmin) calc(.55vw + .000001vh + .000055vmin);
+}
+
+/*---
+ * title:	bellyBandButton
+ * section:	Base/BellyBand
+ * 
+ * Use this class to set the belly band button of pages.
+ * Typically you'll want to use either a `<a>`
+ *
+ * ```example:html
+ * <a class="bellyButton" href="ref">TEXT</a>
+ * ```
+---*/
+a.bellyBandButton:hover {
+	color:#fff;
+    background-color:#484c52;
+}
+
+/*---
+ * title:	dropDown
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set a drop down of a belly band buton.
+ * Typically you'll want to use either a `<div>`
+ *
+ * ```example:html
+ * <div class="dropDown" href="ref"></div>
+ * ```
+---*/
+.dropDown {
+	position: relative;
+	display: inline-block;
+}
+
+/*---
+ * title:	dropDown
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set a drop down of a belly band buton.
+ * Typically you'll want to use either a `<div>`
+ *
+ * ```example:html
+ * <div class="dropDown" href="ref"></div>
+ * ```
+---*/
+div.dropDown {
+	color:inherit;
+	background-color:rgba(0, 0, 0, 0);
+	font-family:inherit;
+}
+
+/*---
+ * title:	dropDownButton
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set the belly band text and button of pages.
+ * Typically you'll want to use either a `<button>`
+ *
+ * ```example:html
+ * <button class="dropDownButton" href="ref">TEXT</button>
+ * ```
+---*/
+.dropDownButton {
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+/*---
+ * title:	dropDownButton
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set a drop down button of a belly band buton.
+ * Typically you'll want to use either a `<button>`
+ *
+ * ```example:html
+ * <button class="dropdownButton" href="ref">TEXT</button>
+ * ```
+---*/
+button.dropDownButton {
+		text-decoration: none;
+        border-style:solid;
+        border-color:#484c52;
+        background-color:#2b2c31;
+        border-width:0px;
+        color:#fff;
+        font-family:sans-serif;
+        font-size: calc(1vw + .9vh + .25vmin);
+        padding:calc(.19vw + .000001vh + .000055vmin) calc(.55vw + .000001vh + .000055vmin);
+}
+
+/*---
+ * title:	dropDownButton
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set a drop down button of a belly band buton.
+ * Typically you'll want to use either a `<button>`
+ *
+ * ```example:html
+ * <button class="dropDownButton" href="ref">TEXT</button>
+ * ```
+---*/
+button.dropDownButton:hover{
+    color:#fff;
+    background-color:#484c52;
+}
+
+/*---
+ * title:	dropDown-content
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set a drop down contnet of a belly band buton.
+ * Typically you'll want to use either a `<div>`
+ *
+ * ```example:html
+ * <div class="dropDown-content" href="ref"></div>
+ * ```
+---*/
+.dropDown-content {
+	color:#fff;
+	background-color:#484c52;
+	display: none;
+	position: absolute;
+	background-color:rgba(255, 255, 255, 0);
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+	z-index: 1;
+}
+
+/*---
+ * title:	dropDown-content
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set a drop down contnet of a belly band buton.
+ * Typically you'll want to use either a `<div>`
+ *
+ * ```example:html
+ * <div class="bellyButton" href="ref"></div>
+ * ```
+---*/
+.dropDown-content a {
+  	font-family:sans-serif;
+	font-size: calc(1vw + .9vh + .25vmin);
+	color:#fff;
+	background-color:#484c52;
+  	padding:calc(.30vw + .000001vh + .000055vmin) calc(.55vw + .000001vh + .000055vmin);
+  	text-decoration: none;
+	display: block;
+}
+
+/*---
+ * title:	dropDown,.dropDownButton
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set teh buton of the drop down content.
+ * Typically you'll want to use either a `<div>`
+ *
+ * ```example:html
+ * <div class="dropDownButton" href="ref"></div>
+ * ```
+---*/
+.dropDown:hover .dropDownButton {
+	color:#fff;
+    background-color:#484c52;
+}
+
+/*---
+ * title:	dropDown-content,.dropDown-content
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set teh buton of the drop down content.
+ * Typically you'll want to use either a `<div>`
+ *
+ * ```example:html
+ * <div class="dropDown" href="ref"></div>
+ * ```
+---*/
+.dropDown:hover .dropDown-content {
+	display: block;
+}
+
+/*---
+ * title:	dropDown-content
+ * section:	Base/BellyBand/DropDown
+ * 
+ * Use this class to set a drop down contnet of a belly band buton.
+ * Typically you'll want to use either a `<div>`
+ *
+ * ```example:html
+ * <div class=dropDown-content" href="ref"></div>
+ * ```
+---*/
+.dropDown-content a:hover {
+	color:#2b2c31;
+	background-color:#7f8186;
+}

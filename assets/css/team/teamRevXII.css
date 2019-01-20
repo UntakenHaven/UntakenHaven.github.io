@@ -1,0 +1,29 @@
+/*---
+ * title:	teamRevXII
+ * import:	https://fonts.googleapis.com/css?family=Fjalla+One%27 
+---*/
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One%27'); /* "Fjalla One" */
+
+/*---
+ * title:	bannerRevXII
+ * section:	Personal/Banners 
+
+ * Use this class to set the banner and banner region of pages.
+ * Typically you'll want to use either a `<div>` and <p>
+
+ * ```example:html
+ * <div class="bannerRevXII"></div>
+ * <p class="bannerRevXII">TEXT</p>	
+```
+---*/
+div.bannerRevXII {
+	display: flex;
+	justify-content: center;	/* align horizontal */
+	align-items: center;		/* align vertical */
+	width: 100%;
+	height: calc(5vw + 5vh + 2.5vmin);
+	background-image: url(../../banners/bannerRevXII.png);
+	font-family:"Fjalla One", sans-serif;
+	color:#fff;
+	font-size: calc(5vw + 4vh + 1vmin);
+}
