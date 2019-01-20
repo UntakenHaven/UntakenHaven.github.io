@@ -2,19 +2,12 @@
  
 This file will act as a todo list for the untaken haven website.
 
-All Pages
-* 1920x300 UntakenHaven Header Image Made and Applied
-* Backround
-* Dark Mode
-
 <a href= "https://untakenhaven.github.io/index.htm">Home Page</a>
-* General Initial Structure
 * Updates  Region
 * Upcoming Priojects
 * Ongoing Projects
 
 <a href= "twitch.htm">Twitch<a><br>
-* UntakenHaven Channel Embed
 * Channel Links 
 * Live Channels <!-- Change emeded channel to user selection if possible.-->
 * Most Recent Highlights
@@ -33,7 +26,6 @@ All Pages
 * ABagOfPowder Page
 * Studied Fern Page
 * ParkCityMedia Page
-* PremiumBrick Page
 * Raging Feral Page
 * Tim Page
 
