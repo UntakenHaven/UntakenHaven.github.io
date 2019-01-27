@@ -29,3 +29,12 @@
 	height:200;
 	background-color:#2f3136;
  }
+ 
+ /*---
+ *
+ ---*/
+ .teamMemberSummary {
+	padding:10px;
+	justify-content:center;
+	display:flex;
+ }
