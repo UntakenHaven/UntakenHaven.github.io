@@ -3,38 +3,67 @@
  * import:	https://fonts.googleapis.com/css?family=Fjalla+One%27 
 ---*/
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One%27'); /* "Fjalla One" */
-/*---
- *
- ---*/
- .teamMemberPanel {
- }
+/*
+*/
+.teamMemberPanel {
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	size:100%;
+}
  
-/*---
- *
- ---*/
- .teamMemberRow {
-	float:left;
- }
- 
- /*---
- *
- ---*/
- .teamMemberBio {
+/*
+*/
+/*
+*/
+.teamMemberBio {
 	overflow:hidden;
 	border-style:solid;
     border-width:0px;
 	border-radius: 30px;
-	float:left;
+	display:inline-block;
 	width:600;
 	height:200;
 	background-color:#2f3136;
- }
- 
- /*---
- *
- ---*/
- .teamMemberSummary {
-	padding:10px;
+}
+
+.avatarBlock {
+	height:200px;
+	display:inline-block;
+	float:left;
+}
+
+.teamMemberAvatar {
+	height:100%;
+	padding-right:28px;
+}
+
+.teamSummaryBlock {
+}
+
+/*---
+*
+---*/
+.teamMemberSummary {
+	text-align:center;
 	justify-content:center;
-	display:flex;
- }
+}
+
+.summaryTitle {
+	text-decoration:none;
+	text-align:center;
+	font-weight:bold;
+	font-style:oblique;
+	padding-bottom:10px;
+}
+
+.summaryText {
+	padding:0px 0px 8px 0px;
+	text-align:left;
+}
+
+.summaryLinks {
+	display:inline-block;
+	text-align:center;
+	padding-bottom:0px;
+}
