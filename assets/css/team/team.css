@@ -14,6 +14,10 @@
  
 /*
 */
+p.inline {
+	display:inline-block;
+	text-align:left;
+}
 /*
 */
 .teamMemberBio {
