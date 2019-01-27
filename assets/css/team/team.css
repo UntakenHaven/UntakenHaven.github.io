@@ -3,3 +3,17 @@
  * import:	https://fonts.googleapis.com/css?family=Fjalla+One%27 
 ---*/
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One%27'); /* "Fjalla One" */
+/*---
+ *
+ ---*/
+ .teamMemberPanel {
+	 float:left;
+ }
+ 
+/*---
+ *
+ ---*/
+ .teamMemberBio {
+ }
+ 
+ 

@@ -36,6 +36,9 @@ p {
 	font-family:inherit;
 }
 
+a {
+	color:inherit;
+}
 /*---
  * title:	bannerMain
  * section:	Base/Banner
