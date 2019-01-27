@@ -18,15 +18,12 @@ This file will act as a todo list for the untaken haven website.
 * Playlists
 
 <a href= "team.htm">Team<a><br>
-<!-- Will be drop down.-->
-<!-- Can be click on to go to general team page.-->
-* List of team members.
-* RevXII Page
-* DoxRyan Page
 * ABagOfPowder Page
-* Studied Fern Page
+* DoxRyan Page
 * ParkCityMedia Page
 * Raging Feral Page
+* RevXII Page
+* Studied Fern Page
 * Tim Page
 
 <a href= "Patreon.htm">Patreon</a>
