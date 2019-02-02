@@ -3,23 +3,36 @@
  * import:	https://fonts.googleapis.com/css?family=Fjalla+One%27 
 ---*/
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One%27'); /* "Fjalla One" */
-/*
-*/
+
+/*---
+ * title:	teamMemberPanel
+ * section:	Base 
+ *
+ * Use this to set the entire pannel containing team cards
+ * Typically you'll want to use `<div>`
+ *
+ * ```example:html
+ * <div class="teamMemberPanel"></div>
+ * ```
+---*/
 .teamMemberPanel {
 	align-items:center;
 	justify-content:center;
 	text-align:center;
 	size:100%;
 }
- 
-/*
-*/
-p.inline {
-	display:inline-block;
-	text-align:left;
-}
-/*
-*/
+
+/*---
+ * title:	teamMemberBio
+ * section:	Card 
+ *
+ * Use this to set to creat a team member card.
+ * Typically you'll want to use `<div>`.
+ *
+ * ```example:html
+ * <div class="teamMemberBio"></div>
+ * ```
+---*/
 .teamMemberBio {
 	overflow:hidden;
 	border-style:solid;
@@ -31,28 +44,67 @@ p.inline {
 	background-color:#2f3136;
 }
 
+/*---
+ * title:	avatarBlock
+ * section:	Avatar 
+ *
+ * Use this to set the avatar div.
+ * Typically you'll want to use `<div>`.
+ *
+ * ```example:html
+ * <div class="avatarBlock"></div>
+ * ```
+---*/
 .avatarBlock {
 	height:200px;
 	display:inline-block;
 	float:left;
 }
 
+/*---
+ * title:	teamMemberAvatar
+ * section:	Avatar 
+ *
+ * Use this to set the avatar and adds 28px padding.
+ * Typically you'll want to use `<img>`.
+ *
+ * ```example:html
+ * <img class="teamMemberAvatar" src="PHOTO">
+ * ```
+---*/
 .teamMemberAvatar {
 	height:100%;
 	padding-right:28px;
 }
 
-.teamSummaryBlock {
-}
 
 /*---
-*
+ * title:	teamMemberSummery
+ * section:	Text 
+ *
+ * Use this to set the text div.
+ * Typically you'll want to use `<div>`.
+ *
+ * ```example:html
+ * <div class="teamMemberSummary"></div>
+ * ```
 ---*/
 .teamMemberSummary {
 	text-align:center;
 	justify-content:center;
 }
 
+/*---
+ * title:	summaryTitle
+ * section:	Text 
+ *
+ * Use this class to set the name in the bio card.
+ * Typically you'll want to use `<p>` in `<a>.
+ *
+ * ```example:html
+ * <a style="text-decoration:none;" href="PAGELINK"><p class="summaryTitle">NAMETEXT</p></a>
+ * ```
+---*/
 .summaryTitle {
 	text-decoration:none;
 	text-align:center;
@@ -61,11 +113,33 @@ p.inline {
 	padding-bottom:10px;
 }
 
+/*---
+ * title:	summeryText
+ * section:	Text 
+ *
+ * Use this to set the 144ish charachter text for bios.
+ * Typically you'll want to use `<p>`.
+ *
+ * ```example:html
+ * <p class="summaryText">TEXT</p>
+ * ```
+---*/
 .summaryText {
 	padding:0px 28px 8px 0px;
 	text-align:left;
 }
 
+/*---
+ * title:	summaryLinks
+ * section:	Text
+ *
+ * Use this to Emmbed links to text for team member page.
+ * Typically you'll want to use `<a>`.
+ *
+ * ```example:html
+ * <a href="LINK" target="_blank">TEXT</a>.
+ * ```
+---*/
 .summaryLinks {
 	display:inline-block;
 	text-align:center;
