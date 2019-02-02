@@ -12,7 +12,7 @@
  * Typically you'll want to use an '<h6>'
  *
  * ```example:html
- * <h6 class=eventCard">mm/dd/yyyy H:mm AM/PM (use time of writing)</article>
+ * <h6 class=eventCard">mm/dd/yyyy H:mm AM/PM (use time of writing) TIMEZONE</h6>
  * ```
 ---*/
 h6.eventCard {
