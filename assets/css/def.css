@@ -52,6 +52,11 @@ a {
  * <p class="bannerMain">TEXT</p>	
  * ```
 ---*/
+
+
+div.centerMask {
+}
+
 div.bannerMain {
 	display: flex;
 	justify-content: center;	/* align horizontal */
